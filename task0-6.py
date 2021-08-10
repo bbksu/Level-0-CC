@@ -1,5 +1,5 @@
 def n_max(*args):
-    hold = 0
+    hold = args[0]
     for value in args:
         if value > hold:
             hold = value
