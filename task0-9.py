@@ -1,17 +1,21 @@
 def vowels(string="Umuzi"):
-    string = string.lower()
+    string_1 = string
+    string_2 = string
+    vowel_list = list(set(string_1.lower()) & set(string_2.lower()))
     vowels = ""
-    for vowel in string:
-        if vowel == 'A'.lower():
+    for vowel in vowel_list:
+        if vowel == 'a':
             vowels += vowel + ", "
-        if vowel == 'E'.lower():
+        if vowel == 'e':
             vowels += vowel + ", "
-        if vowel == 'I'.lower():
+        if vowel == 'i':
             vowels += vowel + ", "
-        if vowel == 'O'.lower():
+        if vowel == 'o':
             vowels += vowel + ", "
-        if vowel == 'U'.lower():
+        if vowel == 'u':
             vowels += vowel + ", "
     vowels = vowels.rstrip(", ")
     vowels = vowels + "."
     print("Vowels: ", vowels)
+
+vowels()
