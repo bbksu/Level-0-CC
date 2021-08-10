@@ -17,5 +17,3 @@ def vowels(string="Umuzi"):
     vowels = vowels.rstrip(", ")
     vowels = vowels + "."
     print("Vowels: ", vowels)
-
-vowels()
