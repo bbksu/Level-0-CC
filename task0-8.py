@@ -1,4 +1,4 @@
-def hour_plus_minute(hours=71):
+def hour_plus_minute(hours):
     hour = int(hours / 60)
     minute = (hours / 60) - hour
     minute = int((minute * 60) + 0.1)

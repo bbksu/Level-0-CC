@@ -1,4 +1,4 @@
-def area_of_triangle(side_a=15, side_b=20, side_c=17):
+def area_of_triangle(side_a, side_b, side_c):
     semi_perimeter = (side_a + side_b + side_c) / 2
     heron = semi_perimeter * (
         (semi_perimeter - side_a)

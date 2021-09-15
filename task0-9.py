@@ -1,6 +1,6 @@
-def vowels(string="Umuzi"):
+def vowels(string=""):
     string_1 = string
-    string_2 = string
+    string_2 = string_1
     vowel_list = list(set(string_1.lower()) & set(string_2.lower()))
     vowels = ""
     for vowel in vowel_list:

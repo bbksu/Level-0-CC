@@ -1,4 +1,4 @@
-def n_max(*args):
+def number_max(*args):
     hold = args[0]
     for value in args:
         if value > hold:
