@@ -4,15 +4,15 @@ def vowels(string="Umuzi"):
     vowel_list = list(set(string_1.lower()) & set(string_2.lower()))
     vowels = ""
     for vowel in vowel_list:
-        if vowel == 'a':
+        if vowel == "a":
             vowels += vowel + ", "
-        if vowel == 'e':
+        if vowel == "e":
             vowels += vowel + ", "
-        if vowel == 'i':
+        if vowel == "i":
             vowels += vowel + ", "
-        if vowel == 'o':
+        if vowel == "o":
             vowels += vowel + ", "
-        if vowel == 'u':
+        if vowel == "u":
             vowels += vowel + ", "
     vowels = vowels.rstrip(", ")
     vowels = vowels + "."
