@@ -10,4 +10,4 @@ def common_letters(string_a="", string_b=""):
                 letters = letters + c + ", "
 
     letters = letters.rstrip(", ")
-    return f"Common letters: {letters}"
+    print(f"'Common letters: {letters}'")
