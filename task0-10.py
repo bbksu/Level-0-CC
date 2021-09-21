@@ -1,9 +1,13 @@
 def common_letters(string_a="", string_b=""):
     letters = ""
-    set_list = list(set(string_a.lower()) & set(string_b.lower()))
-    print(set_list)
-    for letter in set_list:
-        letters += letter + ", "
+    if len(string_a) > len(string_b):
+        for c in string_a:
+            if c in string_b:
+                letters = letters + c + ", "
+    else:
+        for c in string_b:
+            if c in string_a:
+                letters = letters + c + ", "
 
     letters = letters.rstrip(", ")
-    print("Common letters:", letters)
+    return f"Common letters: {letters}"
