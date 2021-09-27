@@ -13,5 +13,3 @@ def common_letters(string_a="", string_b=""):
 
     letters = letters.rstrip(", ")
     print(f"'Common letters: {letters}'")
-
-common_letters('bear', 'BEER')
